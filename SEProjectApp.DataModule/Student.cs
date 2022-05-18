@@ -16,7 +16,7 @@ namespace SEProjectApp.DataModule
         public string Phone_number { get; set; }
         public DateTime Birth_date { get; set; }
 
-        public ICollection<Course>? Grades { get; set; }
+        public ICollection<Subject>? Grades { get; set; }
 
     }
 }
