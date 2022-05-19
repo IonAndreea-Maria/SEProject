@@ -9,6 +9,12 @@ namespace SEProjectApp.DataAccess
 {
     public class BaseRepository<T> : IBaseRepository<T>
     {
+        protected readonly SEProjectAppDbContext dbContext;
+        public BaseRepository(SEProjectAppDbContext dbContext) 
+        { 
+            this.dbContext = dbContext; 
+        }
+
         public T Add(T element)
         {
             throw new NotImplementedException();
