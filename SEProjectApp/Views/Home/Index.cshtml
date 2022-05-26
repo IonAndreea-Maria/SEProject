@@ -1,8 +1,96 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@*
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+*@
+
+<!DOCTYPE html>
+<html>
+@*    <head>
+        <meta name="viewport" content="'=with=device-width, initial-scale=1.0">
+
+        <title>Driving school</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>*@
+
+    <body>
+        <section class="header">
+          @* <nav>
+               <a href="index.html"><img src="images/logo.png"></a>
+               <div class="nav-links">
+                   <ul>
+                       <li><a href="index.cshtml">HOME</a></li>
+                       <li><a href="about.cshtml">ABOUT</a></li>
+                       <li><a href="register.cshtml">REGISTER/LOG IN</a></li>
+                       <li><a href="categories.html">CATEGORIES</a></li>
+                       <li><a href="quiz.html">QUIZ</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+           </nav>    *@ 
+ 
+           <div class="text-box">
+               <h1>Faculty of Automatics, Computers and Electronics</h1>
+               <p>Our faculty (A.C.E.) trains young engineers, providing them with a fundamental theoretical training as well as a practical-applied one, in fields such as:</p>
+               <p></p><a href="about.cshtml"class="h-btn">Visit Us To Know More</a></p>
+
+           </div>
+          </section>
+        <!--Categories-->
+        <section class="Departments">
+            <h1>
+            </h1>
+
+            <div class="row">
+                <div class="categories-col">
+                    <h3>Computers and Information Tehnology</h3>
+                   @* <img src="images/catA.png">*@
+                </div>
+                <div class="categories-col">
+                    <h3>System Engineering</h3>
+                    @*<img src="images/catB.png">*@
+                </div>
+                <div class="categories-col">
+                    <h3>Electronic Engineering, Telecommunications and Information Technologies</h3>
+                    @*<img src="images/catC.png">*@
+                </div>
+                <div class="categories-col">
+                    <h3>Mechatronics and Robotics</h3>
+                    @*<img src="images/catCE.png">*@
+                </div>
+
+            </div>
+        </section>
+
+        <!--contact us-->
+        <section class="contact">
+            <h1>Enroll For Our Various Category Courses
+            </h1>
+            <a href="contact.html" class="h-btn">CONTACT US</a>
+
+        </section>
+
+        <!--Footer-->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p1>We periodically offer you new opportunities in terms of obtaining a driving license.<br> Visit us on social media.
+            </p1>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+           
+        </section>
+    </body>
+
+
+</html>
