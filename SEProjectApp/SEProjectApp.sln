@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEProjectApp.DataAccess", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEProjectApp.Abstractions", "..\SEProjectApp.Abstractions\SEProjectApp.Abstractions.csproj", "{4ADE0D4A-EF6D-45DD-90DD-23EDE04DD4A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEProjectApp.DataModel", "..\SEProjectApp.DataModule\SEProjectApp.DataModel.csproj", "{E117BBBC-2778-41DD-8C07-268471421DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEProjectApp.DataModule", "..\SEProjectApp.DataModule\SEProjectApp.DataModule.csproj", "{E117BBBC-2778-41DD-8C07-268471421DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
